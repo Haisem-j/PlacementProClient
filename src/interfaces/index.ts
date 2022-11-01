@@ -29,6 +29,7 @@ export interface JobInterface {
   status: string;
   category: string;
   featured: boolean;
+  company?: CompanyInterface;
 }
 export interface CompanyInterface {
   id: number;
@@ -36,5 +37,20 @@ export interface CompanyInterface {
   updatedAt: Date;
   name: string;
   email: string;
+  image: string;
+}
+
+export interface BlogPreviewInterface {
+  blogId: number;
+  title: string;
+  tags: string[];
+  authorId: number;
+  image: string;
+  author?: AuthorInterface;
+}
+
+export interface AuthorInterface {
+  authorId: number;
+  name: string;
   image: string;
 }

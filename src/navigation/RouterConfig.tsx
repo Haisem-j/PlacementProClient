@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import HomePage from "../pages/HomePage";
+import JobSearch from "../pages/JobSearch";
 import NotFound from "../pages/NotFound";
 import { JOB, JOBSEARCH, LOGIN, REGISTER, ROOT } from "./constants";
 
@@ -16,7 +17,7 @@ export const RouterConfig = () => {
             <Route path={LOGIN} element={<>Login</>} />
             <Route path={REGISTER} element={<>Register</>} />
             <Route path={ROOT} element={<HomePage />} />
-            <Route path={JOBSEARCH} element={<>Job Search</>} />
+            <Route path={JOBSEARCH} element={<JobSearch />} />
             <Route path={JOB} element={<>Jobs</>} />
             <Route path="*" element={<NotFound />} />
           </Routes>

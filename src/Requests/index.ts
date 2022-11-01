@@ -4,6 +4,34 @@ const API_VERSION = "/api/v1";
 
 // JOBS REQUESTS
 /**
+ * Fetches all jobs and their companies
+ * @param {limit} number - The number of jobs to fetch
+ * @param {skip} number - The number of jobs to skip
+ * @returns {Promise} A promise that resolves with the jobs and their companies
+ */
+export const fetchJobs = async ({
+  limit,
+  skip,
+}: {
+  limit: number;
+  skip: number;
+}): Promise<APIResponse> => {
+  try {
+    const response = await fetch(`${BASE_URL + API_VERSION}/jobs/featured`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ limit, skip }),
+    });
+    const data = await response.json();
+    return data;
+  } catch (error: any) {
+    console.log(error);
+    return error;
+  }
+};
+/**
  * Fetches the featured jobs from the API
  * @returns {Promise} A promise that resolves with the featured jobs
  */

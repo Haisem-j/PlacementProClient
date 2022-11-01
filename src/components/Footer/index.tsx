@@ -59,14 +59,14 @@ const Footer = () => {
 
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Products</h6>
+            <h6 className="text-gray-800 font-medium mb-2">For Jobseekers</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <Link
                   to="#"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Web Studio
+                  Search Jobs
                 </Link>
               </li>
               <li className="mb-2">
@@ -74,7 +74,7 @@ const Footer = () => {
                   to="#"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  DynamicBox Flex
+                  Register
                 </Link>
               </li>
               <li className="mb-2">
@@ -82,7 +82,7 @@ const Footer = () => {
                   to="#"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Programming Forms
+                  Job Alerts
                 </Link>
               </li>
               <li className="mb-2">
@@ -90,15 +90,7 @@ const Footer = () => {
                   to="#"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Integrations
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link
-                  to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  Command-line
+                  Career Advice
                 </Link>
               </li>
             </ul>
@@ -106,14 +98,14 @@ const Footer = () => {
 
           {/* 3rd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
+            <h6 className="text-gray-800 font-medium mb-2">Recruiters</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <Link
                   to="#"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Documentation
+                  Post A Job
                 </Link>
               </li>
               <li className="mb-2">
@@ -121,31 +113,7 @@ const Footer = () => {
                   to="#"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Tutorials & Guides
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link
-                  to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  Blog
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link
-                  to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  Support Center
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link
-                  to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  Partners
+                  Search CVs
                 </Link>
               </li>
             </ul>
@@ -153,14 +121,14 @@ const Footer = () => {
 
           {/* 4th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Company</h6>
+            <h6 className="text-gray-800 font-medium mb-2">Information</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <Link
                   to="#"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Home
+                  About Us
                 </Link>
               </li>
               <li className="mb-2">
@@ -168,23 +136,7 @@ const Footer = () => {
                   to="#"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  About us
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link
-                  to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  Company values
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link
-                  to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  Pricing
+                  Terms & Conditions
                 </Link>
               </li>
               <li className="mb-2">
@@ -193,6 +145,30 @@ const Footer = () => {
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Privacy Policy
+                </Link>
+              </li>
+              <li className="mb-2">
+                <Link
+                  to="#"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                >
+                  Resources
+                </Link>
+              </li>
+              <li className="mb-2">
+                <Link
+                  to="#"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                >
+                  Contact Us
+                </Link>
+              </li>
+              <li className="mb-2">
+                <Link
+                  to="#"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                >
+                  FAQ
                 </Link>
               </li>
             </ul>
@@ -300,7 +276,7 @@ const Footer = () => {
 
           {/* Copyrights note */}
           <div className="text-sm text-gray-600 mr-4">
-            &copy; Cruip.com. All rights reserved.
+            &copy; PlacementPro.io All rights reserved.
           </div>
         </div>
       </div>

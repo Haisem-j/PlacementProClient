@@ -3,10 +3,7 @@ import HeroImage from "../../images/pexels-fox-1595385.jpg";
 const HeroSection = () => {
   return (
     <main className="h-[calc(100vh-5rem)] mt-[80px] flex items-center">
-      <div
-        className="max-w-xl md:max-w-none md:w-full flex"
-        data-aos="fade-right"
-      >
+      <div className="max-w-xl md:max-w-none md:w-full flex">
         <div className="px-5 w-1/2 flex flex-col">
           <p className="text-lg text-gray-600">Build your future with us</p>
           <h1 className="h1 text-5xl mb-3">
